@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(claude config list)",
+      "Bash(claude mcp:*)",
+      "Bash(npx:*)",
+      "Bash(curl:*)",
+      "Bash(SUPABASE_URL=\"https://hotkcjcbxxlhvvtmfqzw.supabase.co\" SUPABASE_ANON_KEY=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhvdGtjamNieHhsaHZ2dG1mcXp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMwODg4NTYsImV4cCI6MjA2ODY2NDg1Nn0.6MHFMEdjgXmQyAJ51nIbHyeWkyIr993_FR6BE-VwFTI\" npx -y @supabase/mcp-server-supabase@latest)",
+      "Bash(SUPABASE_URL=\"https://hotkcjcbxxlhvvtmfqzw.supabase.co\" SUPABASE_ACCESS_TOKEN=\"sbp_4341ba5ef4f1630b6e4c9134075877b598fa6e56\" npx -y @supabase/mcp-server-supabase@latest)",
+      "Bash(SUPABASE_URL=\"https://hotkcjcbxxlhvvtmfqzw.supabase.co\" SUPABASE_ACCESS_TOKEN=\"sbp_4341ba5ef4f1630b6e4c9134075877b598fa6e56\" npx -y @supabase/mcp-server-supabase@latest --version)",
+      "Bash(set SUPABASE_URL=https://hotkcjcbxxlhvvtmfqzw.supabase.co)",
+      "Bash(set SUPABASE_ACCESS_TOKEN=sbp_4341ba5ef4f1630b6e4c9134075877b598fa6e56)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "Bash(dir:*)",
+      "Bash(npm search:*)",
+      "Bash(SUPABASE_ACCESS_TOKEN=\"sbp_4341ba5ef4f1630b6e4c9134075877b598fa6e56\" npx -y @supabase/mcp-server-supabase@latest --version)",
+      "Bash(mkdir:*)",
+      "Bash(npm init:*)",
+      "Bash(npm run dev:*)",
+      "Bash(mv:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": []
+  }
+}

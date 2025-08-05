@@ -1,0 +1,12 @@
+#!/usr/bin/expect -f
+
+spawn npx create-playwright@latest
+expect "Do you want to use TypeScript or JavaScript?"
+send "\r"
+expect "Where to put your end-to-end tests?"
+send "\r"
+expect "Add a GitHub Actions workflow?"
+send "\r"
+expect "Install Playwright browsers?"
+send "\r"
+expect eof
